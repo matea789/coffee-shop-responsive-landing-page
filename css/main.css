@@ -1,0 +1,112 @@
+:root{
+    --clr-primary-100: #fefefe;
+    --clr-primary-200: #efefef;
+    --clr-primary-300: #efdede;
+    --clr-accent-100: #be6262;
+    --clr-accent-400: #c22525;
+    --clr-neutral-400: #6f4e37;
+    --clr-dark: #150a04;
+
+    --ff-primary: "Roboto", sans-serif;
+    --ff-accent: "Playfair Display", serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+body{
+    font-family: var(--ff-primary);
+    font-weight: 400;
+    line-height: 1.6;
+    font-size: 15px;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--clr-primary-300);
+  font-family: var(--ff-accent);
+  font-weight: 900;
+  line-height: 1;
+}
+
+p{
+    font-weight: 300;
+}
+
+.white-bcg{
+    background-color: var(--clr-primary-100);
+}
+
+.gray-bcg{
+    background-color: var(--clr-primary-200);
+}
+
+.img-bcg{
+    background-image: url('/img/coffee-bar.PNG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.text-center{
+text-align: center;
+}
+
+.top-margin-15{
+   margin-top: 15px;
+}
+
+.navigation-toolbar{
+    height: 50px;
+    background-color: var(--clr-primary-200);
+}
+
+
+.container {
+    color: var(--clr-primary-300);
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.accent-btn{
+    border: none;
+    background-color: var(--clr-accent-400);
+    height: 2rem;
+    width: 9rem;
+    font-weight: bold;
+    color: var(--clr-primary-300);
+}
+
+.accent-btn:hover{
+    border: none;
+    background-color: var(--clr-accent-100);
+    cursor: pointer;
+}
+
+.coffee-icon{
+    height: 3rem;
+}
+
+.coffee-title{
+    text-align: center;
+    padding: 3em 0 1em 0;
+}
+
